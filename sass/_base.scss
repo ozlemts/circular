@@ -1,23 +1,141 @@
+body{
+    font-family: "Rubik";
+}
+
+h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 107px;
+    color: #090B27;
+}
+
+p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 180%;
+    color: #5B5D7E;
+}
+
+
 .nav_container{
     margin: 0 5px;
 }
 
 .btn_purple {
-/* base */
-
-width: 270px;
-height: 60px;
-color: white;
-background: #6347FB;
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-border-radius: 100px;
+    background: #6347FB;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    width: 270px;
+    height: 60px;
 }
+
+.btn_grey {
+    /* base */
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    /* Download */
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #6347FB;
+    }
+
+.btn_number {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #6347FB;
+        &_purple{
+            background: rgba(99, 71, 251, 0.1);
+            width: 60px;
+            height: 70px;
+            border-radius: 8px;
+        }
+    }
 
 .grey_background {
     position: absolute;
+    height: 100%;
+    z-index: -1;
+    transform: scale(1.1) translateY(-100px) translateX(50px);
 }
 
 .purple_background {
     position: absolute;
-    transform: translateX(30px);
+    height: 100%;
+    transform:  translateX(50px) translateY(-100px);
+    z-index: -1;
+}
+
+.button_text {
+    display: inline-block;
+    /* View Demo */
+    width: 86px;
+    height: 19px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #6347FB;
+}
+
+.marka {
+    &_item {
+        margin: 6px;
+    }
+}
+
+.iphone {
+    transform: translateY(10%) translateX(50px) ;
+}
+
+.header {
+    margin: 20px;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid #6347FB;
+}
+.referans {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #5B5D7E;
+}
+
+.statistic {
+    &_text{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        color: #5B5D7E;
+    }
+}
+
+.view_demo {
+    justify-content: center;
 }
