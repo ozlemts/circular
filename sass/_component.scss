@@ -1,0 +1,20 @@
+.btn {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 19px;
+        &-purple {
+            height: 6rem;
+            width: 27rem;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10rem;
+            background-color: $primary-purple;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &-transparent {
+            background-color: white;
+    } 
+}
+

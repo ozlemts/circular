@@ -1,0 +1,34 @@
+%heading {
+    font-family: $font-primary;
+    font-weight: 300;
+}
+
+.heading-1 {
+    @extend %heading;
+    font-size: 7rem;
+    color: $text-title;
+    line-height: 1;
+}
+
+.heading-3 {
+    @extend %heading;
+    font-size: 2rem;
+    color: $text-primary;
+    line-height: 1.8;
+}
+
+
+p {
+    @extend %heading;
+    font-size: 1.6rem;
+    color: $text-primary;
+}
+
+
+@mixin abscenter {
+    position: center;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
